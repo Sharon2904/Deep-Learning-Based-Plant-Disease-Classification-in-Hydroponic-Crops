@@ -1,48 +1,26 @@
-# Hydroponic Lettuce Disease Classification
+# Deep Learning Based Plant Disease Classification in Hydroponic Crops
 
-training and evaluating a deep learning model to classify diseases in hydroponic lettuce.
+This project is a Python-based Deep Learning system developed to identify plant diseases in hydroponic crops using image classification techniques.
 
-## Architecture
+## Features
+- Plant disease detection using CNN
+- Image classification
+- Early disease prediction
+- Smart crop monitoring system
 
-*   **Model**: MobileNetV2 (Transfer Learning)
-*   **Framework**: TensorFlow/Keras
-*   **Interface**: Gradio Web App
+## Technologies Used
+- Python
+- Deep Learning
+- CNN
+- TensorFlow / Keras
+- Machine Learning
 
-## Setup Instructions
+## Project Type
+College Group Project
 
-1.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Team Members
+- Mary Sharon
+- Team Members
 
-2.  **Dataset Preparation:**
-    Place your dataset in a `data/raw/` directory. The structure should be:
-    ```
-    data/
-      raw/
-        healthy/
-          img1.jpg
-          ...
-        downy_mildew/
-          ...
-        powdery_mildew/
-          ...
-    ```
-
-3.  **Training the Model:**
-    ```bash
-    python -m src.train
-    ```
-    This will save the best model to `models/best_model.keras` and training plots to the `outputs/` directory.
-
-4.  **Evaluating the Model:**
-    ```bash
-    python -m src.evaluate
-    ```
-    This generates a classification report and confusion matrix in the `outputs/` directory.
-
-5.  **Running the Web Interface:**
-    ```bash
-    python -m src.app
-    ```
-    This starts a local web server to test the model on new images with confidence scores.
+## Screenshots
+(Add screenshots here)
