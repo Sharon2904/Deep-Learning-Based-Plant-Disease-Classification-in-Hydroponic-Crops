@@ -15,12 +15,8 @@ This project is a Python-based Deep Learning system developed to identify plant 
 - TensorFlow / Keras
 - Machine Learning
 
-## Project Type
-College Group Project
-
-## Team Members
-- Mary Sharon
-- Team Members
-
-## Screenshots
-(Add screenshots here)
+## Applications
+- Smart Farming
+- Disease Monitoring
+- Agricultural Research
+- Crop Management
